@@ -24,3 +24,8 @@ goenv versions
 goenv global 1.19.6
 goenv version
 ```
+### Echoインストール
+```
+# -uオプション: echoのインストールとその依存関係にあるパッケージを強制的に更新
+go get -u github.com/labstack/echo
+```
